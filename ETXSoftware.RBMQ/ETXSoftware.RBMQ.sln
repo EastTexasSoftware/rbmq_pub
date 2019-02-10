@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28531.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{5B910C72-9125-4120-89E9-07685E0454B7}"
+	ProjectSection(SolutionItems) = preProject
+		Docker-compose.yml = Docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{AFFAD56D-AACC-46BD-BF56-319A6CDC706B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{92EE6B9C-DD25-4C53-B63A-B61F6B9BB4EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "Producer\Producer.csproj", "{1BEDD997-FCEA-40C5-BED5-E682BE0A4912}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFFAD56D-AACC-46BD-BF56-319A6CDC706B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFAD56D-AACC-46BD-BF56-319A6CDC706B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFAD56D-AACC-46BD-BF56-319A6CDC706B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFAD56D-AACC-46BD-BF56-319A6CDC706B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92EE6B9C-DD25-4C53-B63A-B61F6B9BB4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EE6B9C-DD25-4C53-B63A-B61F6B9BB4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EE6B9C-DD25-4C53-B63A-B61F6B9BB4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EE6B9C-DD25-4C53-B63A-B61F6B9BB4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BEDD997-FCEA-40C5-BED5-E682BE0A4912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BEDD997-FCEA-40C5-BED5-E682BE0A4912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BEDD997-FCEA-40C5-BED5-E682BE0A4912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BEDD997-FCEA-40C5-BED5-E682BE0A4912}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A0536F4-2748-4466-9041-A3917534E9DB}
+	EndGlobalSection
+EndGlobal
