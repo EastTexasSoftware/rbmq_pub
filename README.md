@@ -1,9 +1,9 @@
-# Docker C# RabbitMQ "Hello World"
+# Docker and C# RabbitMQ "Hello World"
 
 ## Introduction
 RabbitMQ is a popular message broker that is often used for exchanging data between services in a distributed system. Companies from small to big should consider RabbitMQ as a messaging solution if they have applications that frequently talk to each other. 
 
-This tutorial will show you how you publish and subscribe messages from RabbitMQ message broker running inside a docker container. The code example will create a simple fanout exchange with one queue attached. 
+This tutorial will show you how you publish and subscribe messages from RabbitMQ message broker running inside a Docker container. The code example will create a simple fanout exchange with one queue attached. 
 
 # Prerequisites
 1. Basic understanding of C#
@@ -94,9 +94,9 @@ _channel.BasicConsume(queue: QueueName,
 
 ## Producer
 
-Now the cusomer is running, we can start the producer. 
+We can start the producer now that the consumer is running. 
 
-Before producing we need to setup a connection to the RabbitMQ broker like we did in the consumer. 
+Before producing we need to setup a connection to the RabbitMQ broker just like we did in the consumer. 
 
 ``` csharp
 ConnectionFactory connectionFactory = new ConnectionFactory() { HostName = "localhost" };
@@ -160,3 +160,5 @@ The RabbitMQ Management Plugin `http://localhost:15672/` should also show messag
 ![Producer and Consumer Console Window](RBMQ-MgmtPlugin.PNG "Producer and Consumer Console Window")
 
 That's it!
+
+You can also view this post at: https://www.easttexassoftware.com/post/docker-c-sharp-rabbitmq-hello-world
